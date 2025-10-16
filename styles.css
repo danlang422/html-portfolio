@@ -160,6 +160,11 @@ hr {
     margin: 10px 20px;
 }
 
+.link {
+    color: #A0C4FF;
+    font-weight: bold;
+}
+
 .bookicon path {
     stroke: white;
     fill: slategray;
