@@ -1,0 +1,166 @@
+.top-container {
+    background-color: #EEF5F7;
+    padding-top: 100px;
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+.heart8bit {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+.bookicon {
+    position: absolute;
+    left: 150px;
+    bottom: 345px;
+    width: 150px;
+    height: 150px;
+}
+
+.laptop-icon {
+    height: 250px;
+    width: 250px;
+    
+}
+
+h1 {
+    font-family: "Playwrite US Modern", cursive;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin: 0;
+    font-size: 3rem;
+    color: #A0C4FF;
+}
+h2{
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 2rem;
+    color: #A0C4FF;
+}
+li, p, h3 {
+    font-family: "Arvo", serif;
+}
+.top-text {
+    text-align: center; 
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.wrapper .dynamic {
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+.dynamic {
+    height: 2.5rem;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.dynamic li {
+    list-style: none;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(6) infinite;
+}
+
+.dynamic li span {
+    position: relative; 
+    display: block; 
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+@keyframes slide {
+    0% { top: 0;}
+    100% {top: -15rem; }
+}
+
+.profile {
+    text-align: center;
+    padding-top: 50px;
+}
+.profile-pic {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    font-family: "Arvo", serif;
+    font-size: 1.2rem;
+}
+
+hr {
+    border: dotted #A0C4FF 6px;
+    width: 4%;
+    margin-top: 50px;
+    border-bottom: none;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    row-gap: 2rem;
+    text-align: left;
+    gap: 2rem;
+    
+}
+.skills-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contact-message {
+    width: 40%;
+    text-align: center; 
+    margin: 40px auto 60px auto;
+    
+}
+
+.btn {
+    background-color: #A0C4FF;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Arvo", serif;
+    box-shadow: 0 9px #999;
+}
+
+.footer {
+    background-color: #EEF5F7;
+    text-align: center;
+    padding: 20px;
+    font-family: "Arvo", serif;
+    margin-top: 100px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.footer-link {
+    color: #A0C4FF;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+.bookicon path {
+    stroke: white;
+    fill: slategray;
+}
